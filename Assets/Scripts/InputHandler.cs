@@ -14,7 +14,6 @@ public class InputHandler : MonoBehaviour
     private void Start()
     {
         // Disable the play button at the start
-        Play.interactable = false;
     }
 
     public void ValidateInput()
@@ -28,26 +27,17 @@ public class InputHandler : MonoBehaviour
             {
                 resultText.text = "Valid input";
                 resultText.color = Color.green;
-
-                // Enable the play button
-                Play.interactable = true;
             }
             else
             {
                 resultText.text = "You must be at least 12 years old to play.";
                 resultText.color = Color.red;
-
-                // Disable the play button
-                Play.interactable = false;
             }
         }
         else
         {
             resultText.text = "Invalid input";
             resultText.color = Color.red;
-
-            // Disable the play button
-            Play.interactable = false;
         }
     }
 }
