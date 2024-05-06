@@ -190,7 +190,7 @@ MonoBehaviour:
   detectionZone: {fileID: 7523818470865149167}
   attackZone: {fileID: 4395093535481117071}
   enemyAttack: {fileID: 7065358164637347685}
-  maxHealth: 10
+  maxHealth: 1
 --- !u!50 &2216414663290125049
 Rigidbody2D:
   serializedVersion: 4

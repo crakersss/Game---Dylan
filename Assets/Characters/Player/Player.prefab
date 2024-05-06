@@ -335,4 +335,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordCollider: {fileID: 6764860894154884222}
   knockbackForce: 500
-  damage: 10
+  damage: 100
